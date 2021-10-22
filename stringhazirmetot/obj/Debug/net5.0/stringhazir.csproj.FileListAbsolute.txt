@@ -1,0 +1,16 @@
+C:\Users\ilkr_\Desktop\newclas\deneme\stringhazir\bin\Debug\net5.0\stringhazir.exe
+C:\Users\ilkr_\Desktop\newclas\deneme\stringhazir\bin\Debug\net5.0\stringhazir.deps.json
+C:\Users\ilkr_\Desktop\newclas\deneme\stringhazir\bin\Debug\net5.0\stringhazir.runtimeconfig.json
+C:\Users\ilkr_\Desktop\newclas\deneme\stringhazir\bin\Debug\net5.0\stringhazir.runtimeconfig.dev.json
+C:\Users\ilkr_\Desktop\newclas\deneme\stringhazir\bin\Debug\net5.0\stringhazir.dll
+C:\Users\ilkr_\Desktop\newclas\deneme\stringhazir\bin\Debug\net5.0\ref\stringhazir.dll
+C:\Users\ilkr_\Desktop\newclas\deneme\stringhazir\bin\Debug\net5.0\stringhazir.pdb
+C:\Users\ilkr_\Desktop\newclas\deneme\stringhazir\obj\Debug\net5.0\stringhazir.csprojAssemblyReference.cache
+C:\Users\ilkr_\Desktop\newclas\deneme\stringhazir\obj\Debug\net5.0\stringhazir.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ilkr_\Desktop\newclas\deneme\stringhazir\obj\Debug\net5.0\stringhazir.AssemblyInfoInputs.cache
+C:\Users\ilkr_\Desktop\newclas\deneme\stringhazir\obj\Debug\net5.0\stringhazir.AssemblyInfo.cs
+C:\Users\ilkr_\Desktop\newclas\deneme\stringhazir\obj\Debug\net5.0\stringhazir.csproj.CoreCompileInputs.cache
+C:\Users\ilkr_\Desktop\newclas\deneme\stringhazir\obj\Debug\net5.0\stringhazir.dll
+C:\Users\ilkr_\Desktop\newclas\deneme\stringhazir\obj\Debug\net5.0\ref\stringhazir.dll
+C:\Users\ilkr_\Desktop\newclas\deneme\stringhazir\obj\Debug\net5.0\stringhazir.pdb
+C:\Users\ilkr_\Desktop\newclas\deneme\stringhazir\obj\Debug\net5.0\stringhazir.genruntimeconfig.cache
