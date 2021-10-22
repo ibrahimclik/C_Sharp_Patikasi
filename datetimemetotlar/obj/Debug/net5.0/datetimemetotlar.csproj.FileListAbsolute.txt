@@ -1,0 +1,16 @@
+C:\Users\ilkr_\Desktop\newclas\deneme\datetimemetotlar\bin\Debug\net5.0\datetimemetotlar.exe
+C:\Users\ilkr_\Desktop\newclas\deneme\datetimemetotlar\bin\Debug\net5.0\datetimemetotlar.deps.json
+C:\Users\ilkr_\Desktop\newclas\deneme\datetimemetotlar\bin\Debug\net5.0\datetimemetotlar.runtimeconfig.json
+C:\Users\ilkr_\Desktop\newclas\deneme\datetimemetotlar\bin\Debug\net5.0\datetimemetotlar.runtimeconfig.dev.json
+C:\Users\ilkr_\Desktop\newclas\deneme\datetimemetotlar\bin\Debug\net5.0\datetimemetotlar.dll
+C:\Users\ilkr_\Desktop\newclas\deneme\datetimemetotlar\bin\Debug\net5.0\ref\datetimemetotlar.dll
+C:\Users\ilkr_\Desktop\newclas\deneme\datetimemetotlar\bin\Debug\net5.0\datetimemetotlar.pdb
+C:\Users\ilkr_\Desktop\newclas\deneme\datetimemetotlar\obj\Debug\net5.0\datetimemetotlar.csprojAssemblyReference.cache
+C:\Users\ilkr_\Desktop\newclas\deneme\datetimemetotlar\obj\Debug\net5.0\datetimemetotlar.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ilkr_\Desktop\newclas\deneme\datetimemetotlar\obj\Debug\net5.0\datetimemetotlar.AssemblyInfoInputs.cache
+C:\Users\ilkr_\Desktop\newclas\deneme\datetimemetotlar\obj\Debug\net5.0\datetimemetotlar.AssemblyInfo.cs
+C:\Users\ilkr_\Desktop\newclas\deneme\datetimemetotlar\obj\Debug\net5.0\datetimemetotlar.csproj.CoreCompileInputs.cache
+C:\Users\ilkr_\Desktop\newclas\deneme\datetimemetotlar\obj\Debug\net5.0\datetimemetotlar.dll
+C:\Users\ilkr_\Desktop\newclas\deneme\datetimemetotlar\obj\Debug\net5.0\ref\datetimemetotlar.dll
+C:\Users\ilkr_\Desktop\newclas\deneme\datetimemetotlar\obj\Debug\net5.0\datetimemetotlar.pdb
+C:\Users\ilkr_\Desktop\newclas\deneme\datetimemetotlar\obj\Debug\net5.0\datetimemetotlar.genruntimeconfig.cache
