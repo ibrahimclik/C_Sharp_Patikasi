@@ -1,0 +1,16 @@
+C:\Users\ilkr_\Desktop\newclas\deneme\generickolvelist\bin\Debug\net5.0\generickolvelist.exe
+C:\Users\ilkr_\Desktop\newclas\deneme\generickolvelist\bin\Debug\net5.0\generickolvelist.deps.json
+C:\Users\ilkr_\Desktop\newclas\deneme\generickolvelist\bin\Debug\net5.0\generickolvelist.runtimeconfig.json
+C:\Users\ilkr_\Desktop\newclas\deneme\generickolvelist\bin\Debug\net5.0\generickolvelist.runtimeconfig.dev.json
+C:\Users\ilkr_\Desktop\newclas\deneme\generickolvelist\bin\Debug\net5.0\generickolvelist.dll
+C:\Users\ilkr_\Desktop\newclas\deneme\generickolvelist\bin\Debug\net5.0\ref\generickolvelist.dll
+C:\Users\ilkr_\Desktop\newclas\deneme\generickolvelist\bin\Debug\net5.0\generickolvelist.pdb
+C:\Users\ilkr_\Desktop\newclas\deneme\generickolvelist\obj\Debug\net5.0\generickolvelist.csprojAssemblyReference.cache
+C:\Users\ilkr_\Desktop\newclas\deneme\generickolvelist\obj\Debug\net5.0\generickolvelist.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ilkr_\Desktop\newclas\deneme\generickolvelist\obj\Debug\net5.0\generickolvelist.AssemblyInfoInputs.cache
+C:\Users\ilkr_\Desktop\newclas\deneme\generickolvelist\obj\Debug\net5.0\generickolvelist.AssemblyInfo.cs
+C:\Users\ilkr_\Desktop\newclas\deneme\generickolvelist\obj\Debug\net5.0\generickolvelist.csproj.CoreCompileInputs.cache
+C:\Users\ilkr_\Desktop\newclas\deneme\generickolvelist\obj\Debug\net5.0\generickolvelist.dll
+C:\Users\ilkr_\Desktop\newclas\deneme\generickolvelist\obj\Debug\net5.0\ref\generickolvelist.dll
+C:\Users\ilkr_\Desktop\newclas\deneme\generickolvelist\obj\Debug\net5.0\generickolvelist.pdb
+C:\Users\ilkr_\Desktop\newclas\deneme\generickolvelist\obj\Debug\net5.0\generickolvelist.genruntimeconfig.cache
