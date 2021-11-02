@@ -1,0 +1,16 @@
+C:\Users\ilkr_\Desktop\newclas\deneme\kurucufonksiyonlar\obj\Debug\net5.0\kurucufonksiyonlar.csprojAssemblyReference.cache
+C:\Users\ilkr_\Desktop\newclas\deneme\kurucufonksiyonlar\obj\Debug\net5.0\kurucufonksiyonlar.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ilkr_\Desktop\newclas\deneme\kurucufonksiyonlar\obj\Debug\net5.0\kurucufonksiyonlar.AssemblyInfoInputs.cache
+C:\Users\ilkr_\Desktop\newclas\deneme\kurucufonksiyonlar\obj\Debug\net5.0\kurucufonksiyonlar.AssemblyInfo.cs
+C:\Users\ilkr_\Desktop\newclas\deneme\kurucufonksiyonlar\obj\Debug\net5.0\kurucufonksiyonlar.csproj.CoreCompileInputs.cache
+C:\Users\ilkr_\Desktop\newclas\deneme\kurucufonksiyonlar\bin\Debug\net5.0\kurucufonksiyonlar.exe
+C:\Users\ilkr_\Desktop\newclas\deneme\kurucufonksiyonlar\bin\Debug\net5.0\kurucufonksiyonlar.deps.json
+C:\Users\ilkr_\Desktop\newclas\deneme\kurucufonksiyonlar\bin\Debug\net5.0\kurucufonksiyonlar.runtimeconfig.json
+C:\Users\ilkr_\Desktop\newclas\deneme\kurucufonksiyonlar\bin\Debug\net5.0\kurucufonksiyonlar.runtimeconfig.dev.json
+C:\Users\ilkr_\Desktop\newclas\deneme\kurucufonksiyonlar\bin\Debug\net5.0\kurucufonksiyonlar.dll
+C:\Users\ilkr_\Desktop\newclas\deneme\kurucufonksiyonlar\bin\Debug\net5.0\ref\kurucufonksiyonlar.dll
+C:\Users\ilkr_\Desktop\newclas\deneme\kurucufonksiyonlar\bin\Debug\net5.0\kurucufonksiyonlar.pdb
+C:\Users\ilkr_\Desktop\newclas\deneme\kurucufonksiyonlar\obj\Debug\net5.0\kurucufonksiyonlar.dll
+C:\Users\ilkr_\Desktop\newclas\deneme\kurucufonksiyonlar\obj\Debug\net5.0\ref\kurucufonksiyonlar.dll
+C:\Users\ilkr_\Desktop\newclas\deneme\kurucufonksiyonlar\obj\Debug\net5.0\kurucufonksiyonlar.pdb
+C:\Users\ilkr_\Desktop\newclas\deneme\kurucufonksiyonlar\obj\Debug\net5.0\kurucufonksiyonlar.genruntimeconfig.cache
