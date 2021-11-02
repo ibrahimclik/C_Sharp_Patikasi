@@ -1,0 +1,16 @@
+C:\Users\ilkr_\Desktop\newclas\deneme\sinifkavrami1\bin\Debug\net5.0\sinifkavrami1.exe
+C:\Users\ilkr_\Desktop\newclas\deneme\sinifkavrami1\bin\Debug\net5.0\sinifkavrami1.deps.json
+C:\Users\ilkr_\Desktop\newclas\deneme\sinifkavrami1\bin\Debug\net5.0\sinifkavrami1.runtimeconfig.json
+C:\Users\ilkr_\Desktop\newclas\deneme\sinifkavrami1\bin\Debug\net5.0\sinifkavrami1.runtimeconfig.dev.json
+C:\Users\ilkr_\Desktop\newclas\deneme\sinifkavrami1\bin\Debug\net5.0\sinifkavrami1.dll
+C:\Users\ilkr_\Desktop\newclas\deneme\sinifkavrami1\bin\Debug\net5.0\ref\sinifkavrami1.dll
+C:\Users\ilkr_\Desktop\newclas\deneme\sinifkavrami1\bin\Debug\net5.0\sinifkavrami1.pdb
+C:\Users\ilkr_\Desktop\newclas\deneme\sinifkavrami1\obj\Debug\net5.0\sinifkavrami1.csprojAssemblyReference.cache
+C:\Users\ilkr_\Desktop\newclas\deneme\sinifkavrami1\obj\Debug\net5.0\sinifkavrami1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ilkr_\Desktop\newclas\deneme\sinifkavrami1\obj\Debug\net5.0\sinifkavrami1.AssemblyInfoInputs.cache
+C:\Users\ilkr_\Desktop\newclas\deneme\sinifkavrami1\obj\Debug\net5.0\sinifkavrami1.AssemblyInfo.cs
+C:\Users\ilkr_\Desktop\newclas\deneme\sinifkavrami1\obj\Debug\net5.0\sinifkavrami1.csproj.CoreCompileInputs.cache
+C:\Users\ilkr_\Desktop\newclas\deneme\sinifkavrami1\obj\Debug\net5.0\sinifkavrami1.dll
+C:\Users\ilkr_\Desktop\newclas\deneme\sinifkavrami1\obj\Debug\net5.0\ref\sinifkavrami1.dll
+C:\Users\ilkr_\Desktop\newclas\deneme\sinifkavrami1\obj\Debug\net5.0\sinifkavrami1.pdb
+C:\Users\ilkr_\Desktop\newclas\deneme\sinifkavrami1\obj\Debug\net5.0\sinifkavrami1.genruntimeconfig.cache

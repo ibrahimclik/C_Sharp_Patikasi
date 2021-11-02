@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "sinifkavrami1/1.0.0": {
+        "runtime": {
+          "sinifkavrami1.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "sinifkavrami1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
