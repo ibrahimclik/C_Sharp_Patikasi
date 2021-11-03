@@ -1,0 +1,16 @@
+C:\Users\ilkr_\Desktop\newclas\deneme\enumlar\bin\Debug\net5.0\enumlar.exe
+C:\Users\ilkr_\Desktop\newclas\deneme\enumlar\bin\Debug\net5.0\enumlar.deps.json
+C:\Users\ilkr_\Desktop\newclas\deneme\enumlar\bin\Debug\net5.0\enumlar.runtimeconfig.json
+C:\Users\ilkr_\Desktop\newclas\deneme\enumlar\bin\Debug\net5.0\enumlar.runtimeconfig.dev.json
+C:\Users\ilkr_\Desktop\newclas\deneme\enumlar\bin\Debug\net5.0\enumlar.dll
+C:\Users\ilkr_\Desktop\newclas\deneme\enumlar\bin\Debug\net5.0\ref\enumlar.dll
+C:\Users\ilkr_\Desktop\newclas\deneme\enumlar\bin\Debug\net5.0\enumlar.pdb
+C:\Users\ilkr_\Desktop\newclas\deneme\enumlar\obj\Debug\net5.0\enumlar.csprojAssemblyReference.cache
+C:\Users\ilkr_\Desktop\newclas\deneme\enumlar\obj\Debug\net5.0\enumlar.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ilkr_\Desktop\newclas\deneme\enumlar\obj\Debug\net5.0\enumlar.AssemblyInfoInputs.cache
+C:\Users\ilkr_\Desktop\newclas\deneme\enumlar\obj\Debug\net5.0\enumlar.AssemblyInfo.cs
+C:\Users\ilkr_\Desktop\newclas\deneme\enumlar\obj\Debug\net5.0\enumlar.csproj.CoreCompileInputs.cache
+C:\Users\ilkr_\Desktop\newclas\deneme\enumlar\obj\Debug\net5.0\enumlar.dll
+C:\Users\ilkr_\Desktop\newclas\deneme\enumlar\obj\Debug\net5.0\ref\enumlar.dll
+C:\Users\ilkr_\Desktop\newclas\deneme\enumlar\obj\Debug\net5.0\enumlar.pdb
+C:\Users\ilkr_\Desktop\newclas\deneme\enumlar\obj\Debug\net5.0\enumlar.genruntimeconfig.cache
