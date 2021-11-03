@@ -1,0 +1,16 @@
+C:\Users\ilkr_\Desktop\newclas\deneme\staticsinifveüyeler\bin\Debug\net5.0\staticsinifveüyeler.exe
+C:\Users\ilkr_\Desktop\newclas\deneme\staticsinifveüyeler\bin\Debug\net5.0\staticsinifveüyeler.deps.json
+C:\Users\ilkr_\Desktop\newclas\deneme\staticsinifveüyeler\bin\Debug\net5.0\staticsinifveüyeler.runtimeconfig.json
+C:\Users\ilkr_\Desktop\newclas\deneme\staticsinifveüyeler\bin\Debug\net5.0\staticsinifveüyeler.runtimeconfig.dev.json
+C:\Users\ilkr_\Desktop\newclas\deneme\staticsinifveüyeler\bin\Debug\net5.0\staticsinifveüyeler.dll
+C:\Users\ilkr_\Desktop\newclas\deneme\staticsinifveüyeler\bin\Debug\net5.0\ref\staticsinifveüyeler.dll
+C:\Users\ilkr_\Desktop\newclas\deneme\staticsinifveüyeler\bin\Debug\net5.0\staticsinifveüyeler.pdb
+C:\Users\ilkr_\Desktop\newclas\deneme\staticsinifveüyeler\obj\Debug\net5.0\staticsinifveüyeler.csprojAssemblyReference.cache
+C:\Users\ilkr_\Desktop\newclas\deneme\staticsinifveüyeler\obj\Debug\net5.0\staticsinifveüyeler.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ilkr_\Desktop\newclas\deneme\staticsinifveüyeler\obj\Debug\net5.0\staticsinifveüyeler.AssemblyInfoInputs.cache
+C:\Users\ilkr_\Desktop\newclas\deneme\staticsinifveüyeler\obj\Debug\net5.0\staticsinifveüyeler.AssemblyInfo.cs
+C:\Users\ilkr_\Desktop\newclas\deneme\staticsinifveüyeler\obj\Debug\net5.0\staticsinifveüyeler.csproj.CoreCompileInputs.cache
+C:\Users\ilkr_\Desktop\newclas\deneme\staticsinifveüyeler\obj\Debug\net5.0\staticsinifveüyeler.dll
+C:\Users\ilkr_\Desktop\newclas\deneme\staticsinifveüyeler\obj\Debug\net5.0\ref\staticsinifveüyeler.dll
+C:\Users\ilkr_\Desktop\newclas\deneme\staticsinifveüyeler\obj\Debug\net5.0\staticsinifveüyeler.pdb
+C:\Users\ilkr_\Desktop\newclas\deneme\staticsinifveüyeler\obj\Debug\net5.0\staticsinifveüyeler.genruntimeconfig.cache
