@@ -1,0 +1,279 @@
+//BookController.cs KISMI
+
+using Microsoft.AspNetCore.Mvc;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using WebApi.BookOperations.CreateBook;
+using WebApi.BookOperations.GetBooks;
+using WebApi.BookOperations.GetById;
+using WebApi.BookOperations.UpdateBook;
+using WebApi.DBOperations;
+using static WebApi.BookOperations.CreateBook.CreateBookCommand;
+using static WebApi.BookOperations.UpdateBook.UpdateBookCommand;
+
+namespace WebApi.AddControllers
+{
+
+[ApiController]               // Controllerimizin bir http response döndüreceğini belirtme için bunu yapacağız.
+[Route("[controller]s")]      // Hangi talebe(request) hangi kaynağın(source) geri dönüş yapacağını belirtmek için bu kısmı yazdık.
+
+public class BookController:ControllerBase 
+  {
+
+private static List<Book> BookList = new List<Book>(); 
+
+private readonly BookStoreDbContext  _context;
+
+public BookController (BookStoreDbContext context)
+
+{
+   _context = context;
+}
+
+//new Book {
+//  Id=1,
+//  Title="Lean StartUP",
+//  GenreId=1, //Personal Growth
+//  PageCount = 200,
+//  PublishDate=new DateTime(2001,06,12)
+//},
+//
+//new Book {
+//  Id=2,
+//  Title="Herland",
+//  GenreId=2, //Science Finction
+//  PageCount =250 ,
+//  PublishDate=new DateTime(2010,05,23)
+//},
+//
+//new Book {
+//  Id=3,
+//  Title="Dune",
+//  GenreId=2, //Science Finction
+//  PageCount =540 ,
+//  PublishDate=new DateTime(2002,12,21)
+//},
+//};
+
+[HttpGet]
+public IActionResult GetBooks() {  //Geri dönüş tipi public,geri dönüş türü liste ismi GetBooks olam bir metot tanımladım burada.
+
+  GetBooksQuery query = new GetBooksQuery(_context);
+  var result=query.Handle();
+  return Ok(result);
+
+}
+
+[HttpGet("{id}")]
+
+
+
+public Book GetById(int id) {  //Geri dönüş tipi public,geri dönüş türü book ismi GetById olan bir metot tanımladım burada.
+
+GetById gbi = new GetById(_context);
+var result=gbi.Handle();
+return result;
+
+
+//
+//   var book= _context.Books.Where(book=> book.Id == id).SingleOrDefault();
+//   return book; 
+//
+}
+
+[HttpPost] 
+
+public IActionResult AddBook([FromBody] CreateBookModel newBook) {
+
+CreateBookCommand command = new CreateBookCommand(_context);
+
+try
+{
+
+  command.Model = newBook;
+  command.Handle();
+
+}
+catch (Exception ex)
+{
+    return BadRequest(ex.Message);
+}
+
+return Ok();
+}
+
+[HttpPut("{id}")]        //Bu komut sayesinde güncelleme işlemini yapacağımız id'yi belirttik.
+
+
+
+public IActionResult UpdateBook(int id,[FromBody] UpdateBookModel updatedBook) {
+
+UpdateBookCommand command = new UpdateBookCommand(_context);
+try
+{
+command.ModelOne= updatedBook;
+command.Handle();
+     
+}
+catch (Exception ex)
+{
+    return BadRequest(ex.Message);
+}
+
+
+return  Ok();
+
+
+
+
+//var book = _context.Books.SingleOrDefault(x=>x.Id == id);
+//
+//if(book is null) {
+//
+//return BadRequest();  // Burada book değişkeninin null olması durumunda elimizde güncelleyecek bir veri olmadığı için hata fırlatıyoruz.
+//}
+//
+//book.GenreId = updatedBook.GenreId != default ? updatedBook.GenreId : book.GenreId;
+//book.PageCount =updatedBook.PageCount != default ? updatedBook.PageCount : book.PageCount;
+//book.PublishDate =updatedBook.PublishDate != default ? updatedBook.PublishDate : book.PublishDate;
+//book.Title = updatedBook.Title != default != default ? updatedBook.Title : book.Title;
+// 
+//_context.SaveChanges();  //Bu komutu ekledim çünkü artık bir statik listeyle değil bir veritabanı(DB) ile çalışıyorum.
+//
+//return Ok();
+}
+
+
+
+
+
+[HttpDelete("{id}")]
+
+public IActionResult DeleteBook(int id)
+
+{
+  var book = BookList.SingleOrDefault(x=> x.Id == id);
+  if (book is null)
+  return BadRequest();
+
+  _context.Remove(book);
+  _context.SaveChanges();
+  return Ok();
+}
+}
+}
+
+
+
+
+
+
+
+
+
+//UpdateBookCommands SINIFI
+
+using Microsoft.AspNetCore.Mvc;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using WebApi.BookOperations.GetBooks;
+using WebApi.DBOperations;
+
+namespace WebApi.BookOperations.UpdateBook
+{
+
+     public class UpdateBookCommand 
+     {
+        public UpdateBookModel ModelOne {get; set;}
+        private readonly BookStoreDbContext _dbContext;
+    
+
+    public UpdateBookCommand(BookStoreDbContext dbContext)
+        {
+            _dbContext = dbContext;
+        }
+         
+        public void Handle() 
+        {
+           var book = _dbContext.Books.SingleOrDefault(x => x.Id == ModelOne.id);
+           if(book is null) {
+           throw new InvalidOperationException("Bu isimde kitap mevcut değil");  }
+
+          
+           book.GenreId = ModelOne.GenreId != default ? ModelOne.GenreId : book.GenreId;
+           book.PageCount = ModelOne.PageCount != default ? ModelOne.PageCount : book.PageCount;
+           book.PublishDate = ModelOne.PublishDate != default ? ModelOne.PublishDate : book.PublishDate;
+           book.Title = ModelOne. Title != default ? ModelOne.Title : book.Title;
+
+           _dbContext.SaveChanges();
+        }
+
+        public class UpdateBookModel
+        {
+        
+        public int id {get; set;}
+        public string Title { get; set; }
+        public int GenreId { get; set; }
+        
+        public int PageCount { get; set; }
+
+        public DateTime PublishDate { get; set; }
+
+        }
+    }
+
+}
+
+
+
+
+
+
+
+//GetById SINIFI (Hatalı çalışmıyor,id tanımını ve bağlantı kısmına sonra tekrar bak)
+
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using WebApi.Common;
+using WebApi.DBOperations;
+
+namespace WebApi.BookOperations.GetById
+{
+     
+     
+    public class GetById 
+    {
+         private readonly BookStoreDbContext _dbContext; //Buna sadece kurucu metottan erişilebiliyor bu kod sayesinde. 
+         public GetById(BookStoreDbContext dbContext) 
+         {
+            _dbContext= dbContext;
+         }
+        
+        public Book Handle() {  //Asıl işi yapacak metodum.
+        
+        var book= _dbContext.Books.Where(book=> book.Id
+        == id).SingleOrDefault();
+        return book;
+
+
+        }
+
+        public class GetByIdModel {
+
+        public int id { get; set; }
+        public string Title { get; set; }
+        public int PageCount { get; set; }
+        public int PublishDate {get; set;}
+        public string Genre {get; set;}
+
+        }
+
+        
+    }
+
+}
